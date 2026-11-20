@@ -8,13 +8,10 @@ export function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-6xl px-6 py-20 md:py-28">
       <div className="max-w-2xl">
-        <p className="font-mono text-xs text-[#7A8296]">
-          {t({ vi: 'Hành trình & Kinh nghiệm', en: 'Experience' })}
-        </p>
-        <h2 className="mt-2 text-2xl font-medium leading-[1.15] tracking-[-0.02em] text-[#EEF0F5] sm:text-3xl">
+        <h2 className="font-display text-3xl font-normal leading-[1.12] tracking-[-0.02em] text-[#EEF0F5] sm:text-4xl">
           {t({
-            vi: 'Song hành giữa vận hành y tế và kinh doanh số',
-            en: 'Healthcare operations alongside digital commerce',
+            vi: 'Nơi từng làm việc & đóng góp thực tế',
+            en: 'Work experience & environments',
           })}
         </h2>
       </div>
@@ -24,22 +21,26 @@ export function Experience() {
           const meta = DOMAIN_META[exp.domain];
 
           return (
-            <div key={exp.id} className="grid gap-4 py-8 md:grid-cols-12 md:gap-8">
-              <div className="md:col-span-3">
-                <div className="font-mono text-xs tabular-nums text-[#7A8296]">
-                  {t(exp.period)}
-                </div>
-                <div className="mt-2 inline-flex items-center gap-2 font-mono text-xs text-[#A3A9B8]">
+            <div
+              key={exp.id}
+              className="grid gap-4 py-8 md:grid-cols-12 md:gap-8"
+            >
+              <div className="md:col-span-4">
+                <div className="inline-flex items-center gap-2 font-mono text-xs text-[#9BA2B2]">
                   <span className={`h-1.5 w-1.5 rounded-full ${meta.dot}`} />
-                  {meta.code}
+                  <span>{meta.code}</span>
+                  <span className="text-[#5B6275]">·</span>
+                  <span className="text-[#7A8296]">{t(exp.period)}</span>
+                </div>
+                <div className="mt-2.5 text-base font-medium text-[#EEF0F5]">
+                  {t(exp.organization)}
                 </div>
               </div>
 
-              <div className="md:col-span-9">
+              <div className="md:col-span-8">
                 <h3 className="text-lg font-medium text-[#EEF0F5]">{t(exp.role)}</h3>
-                <p className="mt-0.5 text-sm text-[#A3A9B8]">{t(exp.organization)}</p>
 
-                <p className="mt-3 max-w-2xl text-sm leading-6 text-[#A3A9B8]">
+                <p className="mt-2.5 max-w-2xl text-sm leading-6 text-[#9BA2B2]">
                   {t(exp.description)}
                 </p>
 
@@ -47,7 +48,7 @@ export function Experience() {
                   {exp.achievements.map((item, idx) => (
                     <li
                       key={idx}
-                      className="flex items-start gap-2.5 text-sm leading-6 text-[#EEF0F5]"
+                      className="flex items-start gap-2.5 text-sm leading-6 text-[#D5DAE5]"
                     >
                       <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-[#2DD4BF]" />
                       <span>{t(item)}</span>

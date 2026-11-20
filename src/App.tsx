@@ -21,7 +21,7 @@ function PortfolioContent() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0B0D14] text-[#EEF0F5]">
+    <div className="min-h-screen bg-[#090B10] text-[#EEF0F5]">
       <Navbar />
       <main>
         <Hero onSelectDomain={handleSelectDomain} />

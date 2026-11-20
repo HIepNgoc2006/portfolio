@@ -2,16 +2,17 @@
 
 @theme {
   --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Newsreader", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   --ease-ui: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @layer base {
   html {
-    background-color: #0b0d14;
+    background-color: #090b10;
     color: #eef0f5;
     font-family: var(--font-sans);
-    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    caret-color: #2dd4bf;
   }
 
   button:focus-visible,
@@ -27,17 +28,77 @@
     width: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: #0b0d14;
+    background: #090b10;
   }
   ::-webkit-scrollbar-thumb {
-    background: #1a1e28;
+    background: #1c202c;
     border-radius: 4px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #2b3142;
+    background: #2e3548;
   }
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
 }
 
 .tabular-nums {
   font-variant-numeric: tabular-nums;
+}
+
+/* Precision top-edge specular hairline for primary dark panels */
+.surface-panel {
+  position: relative;
+  background-color: #10131b;
+  border: 1px solid rgba(238, 240, 245, 0.08);
+  box-shadow: 0 24px 48px -24px rgba(0, 0, 0, 0.65);
+}
+
+.surface-panel::before {
+  content: "";
+  position: absolute;
+  inset-inline: 16px;
+  top: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(238, 240, 245, 0.2) 50%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+/* Single authored entrance rhythm — respects reduced motion */
+@keyframes panelEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-enter {
+  animation: panelEnter 420ms var(--ease-ui) both;
+}
+
+.animate-enter-delay-1 {
+  animation: panelEnter 460ms var(--ease-ui) 70ms both;
+}
+
+.animate-enter-delay-2 {
+  animation: panelEnter 500ms var(--ease-ui) 140ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-enter,
+  .animate-enter-delay-1,
+  .animate-enter-delay-2 {
+    animation: none;
+  }
 }
