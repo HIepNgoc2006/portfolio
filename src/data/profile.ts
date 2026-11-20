@@ -599,12 +599,12 @@ export const PROFILE: ProfileData = {
     },
   ],
 
-  // THAY THÔNG TIN LIÊN HỆ THẬT CỦA BẠN TẠI ĐÂY
+  // Thông tin liên hệ chính thức
   social: {
-    email: 'lienhe.portfolio@gmail.com',
-    phone: '09xx xxx xxx',
-    zalo: 'https://zalo.me/0900000000',
-    facebook: 'https://facebook.com/',
+    email: 'hiepnn9999@gmail.com',
+    phone: '0913 913 965',
+    zalo: 'https://zalo.me/0913913965',
+    facebook: 'https://www.facebook.com/hiep.nguyen.8100/',
     github: 'https://github.com/HIepNgoc2006',
   },
 };
