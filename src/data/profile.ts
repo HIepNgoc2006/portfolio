@@ -312,38 +312,74 @@ export const PROFILE: ProfileData = {
       },
     },
     {
-      id: 'proj-autovideobot-adn',
+      id: 'proj-autovideobot',
       domain: 'programming',
       title: {
-        vi: 'AutoVideoBot & ADN — Hệ thống Automation Server & Mô phỏng Khoa học',
-        en: 'AutoVideoBot & ADN — Server Automation & Computational Modeling',
+        vi: 'AutoVideoBot — Hệ thống tự động tạo & đăng video YouTube 24/7',
+        en: 'AutoVideoBot — Unattended Daily YouTube Video Pipeline',
       },
       summary: {
-        vi: 'Triển khai pipeline tự động sản xuất video đa kênh trên Ubuntu Server/Docker (phục vụ trực tiếp mảng tiếp thị) và pipeline Python mô phỏng mạng điều hòa gen lão hóa tế bào (scRNA-seq).',
-        en: 'Built an Ubuntu/Docker automated multi-channel video pipeline for content marketing alongside a Python Boolean gene-network simulator validated on scRNA-seq data.',
+        vi: 'Bot Python vận hành tự động trên Ubuntu Server 24 bằng Systemd & Docker: dùng Gemini API viết kịch bản, MoneyPrinterTurbo dựng video trên RAM Disk (/dev/shm) và tự động upload qua YouTube Data API.',
+        en: 'Automated Python pipeline on Ubuntu Server 24 (Systemd + Docker): Gemini API scripting, MoneyPrinterTurbo video rendering over RAM Disk (/dev/shm), and quota-safe YouTube Data API uploads.',
       },
       metric: {
-        vi: 'Vận hành tự động trên Ubuntu/Docker + CI/CD chuẩn hóa',
-        en: 'Automated Ubuntu/Docker pipelines & CI-verified Python',
+        vi: 'Tự động hóa 24/7 qua Systemd + tối ưu RAM Disk (/dev/shm)',
+        en: '24/7 Systemd service with RAM Disk (/dev/shm) I/O optimization',
       },
       role: {
-        vi: 'Python & Automation Engineer',
-        en: 'Python & Automation Engineer',
+        vi: 'Python & Linux Automation Developer',
+        en: 'Python & Linux Automation Developer',
       },
-      period: '2025 – 2026',
-      tags: ['Python', 'Docker', 'Ubuntu SSH', 'Playwright', 'scRNA-seq', 'CI/CD'],
+      period: '2026',
+      tags: ['Python', 'Docker', 'Ubuntu Systemd', 'Gemini API', 'YouTube API'],
       details: {
         context: {
-          vi: 'Vừa cần tự động hóa khâu sản xuất video ngắn cho hoạt động quảng cáo/tiếp thị trên máy chủ chạy độc lập, vừa giải quyết bài toán mô phỏng dữ liệu sinh học tính toán có kiểm chứng tự động.',
-          en: 'Needed unattended server-side video generation for marketing channels alongside a reproducible computational biology pipeline for cellular senescence modeling.',
+          vi: 'Cần tự động hóa trọn gói quy trình sản xuất và đăng video ngắn hàng ngày lên YouTube trên máy chủ tự vận hành (Ubuntu Server 24, cấu hình phần cứng tiết kiệm) mà không bị gián đoạn hay tràn ổ đĩa.',
+          en: 'Needed a self-hosted daily video production and YouTube publishing pipeline running reliably on modest Ubuntu Server 24 hardware without manual intervention or disk exhaustion.',
         },
         solution: {
-          vi: 'Đóng gói AutoVideoBot + MoneyPrinterTurbo chạy cô lập bằng Docker & Python venv trên Ubuntu Server 24 qua SSH; xây dựng pipeline ADN mô phỏng mạng gen Boolean kiểm chứng dữ liệu GSE130973 kèm pytest & GitHub Actions CI.',
-          en: 'Deployed AutoVideoBot and MoneyPrinterTurbo in isolated Docker/venv environments on Ubuntu 24 via SSH; engineered the ADN Boolean network workbench validated against GSE130973 with pytest and GitHub Actions CI.',
+          vi: 'Thiết kế orchestrator Python kết nối Gemini API viết kịch bản, gọi MoneyPrinterTurbo đóng gói trong Docker để dựng video, chuyển thư mục xử lý tạm lên RAM Disk (/dev/shm) để tránh nghẽn I/O ổ cứng, tự động dọn rác tệp cũ, kiểm soát YouTube API quota và cấu hình Systemd Service tự hồi sinh.',
+          en: 'Built a Python orchestrator pairing Gemini API scripting with Dockerized MoneyPrinterTurbo, routed scratch renders to RAM Disk (/dev/shm) to eliminate HDD bottlenecks, added automatic garbage collection, enforced YouTube API quota guards, and wrapped the scheduler in an auto-restarting Systemd service.',
         },
         impact: {
-          vi: 'Kết nối trực tiếp kỹ năng kỹ thuật sang tạo đòn bẩy cho mảng tiếp thị nội dung, đồng thời giữ chuẩn mực kiểm thử và cô lập môi trường nghiêm ngặt.',
-          en: 'Turned engineering automation directly into marketing leverage while upholding strict environment isolation and automated testing.',
+          vi: 'Hệ thống chạy ổn định không cần thao tác thủ công trên phần cứng gọn nhẹ, tăng tốc xử lý I/O đáng kể và tránh lỗi hết hạn token hoặc tràn bộ nhớ.',
+          en: 'Delivered a resilient, low-overhead publishing server with fast temporary I/O, automatic recovery, and strict quota/storage safety.',
+        },
+      },
+    },
+    {
+      id: 'proj-adn',
+      domain: 'programming',
+      title: {
+        vi: 'ADN — Nền tảng Mô phỏng Lão hóa Tế bào & Tái lập trình In-Silico',
+        en: 'ADN — Cellular Senescence & In-Silico Reprogramming Workbench',
+      },
+      summary: {
+        vi: 'Ứng dụng nghiên cứu sinh học tính toán (Python & Streamlit) mô phỏng lão hóa tế bào cấp mạng điều hòa gen Boolean (MaBoSS), kiểm chứng trên dữ liệu scRNA-seq (GSE130973) và CellAge 279 gen.',
+        en: 'Open-source computational biology workbench (Python & Streamlit) simulating cellular senescence via Boolean gene regulatory networks (MaBoSS), validated against scRNA-seq (GSE130973) and 279 CellAge genes.',
+      },
+      metric: {
+        vi: 'Streamlit Workbench · MaBoSS · scRNA-seq (GSE130973) · MIT',
+        en: 'Streamlit Workbench · MaBoSS · scRNA-seq (GSE130973) · MIT',
+      },
+      role: {
+        vi: 'Computational Biology & Python Developer',
+        en: 'Computational Biology & Python Developer',
+      },
+      period: '2026',
+      tags: ['Python', 'Streamlit', 'MaBoSS', 'scRNA-seq', 'SBML', 'CI/CD'],
+      details: {
+        context: {
+          vi: 'Xây dựng công cụ mô phỏng tính toán mở giúp khảo sát trạng thái lão hóa tế bào (cellular senescence) và kịch bản tái lập trình một phần (OSK / Ink4a-Arf) mà có thể kiểm chứng trực tiếp bằng dữ liệu thực nghiệm.',
+          en: 'Built an open-source in-silico workbench to explore cellular senescence dynamics and partial reprogramming perturbations (OSK / Ink4a-Arf) grounded in empirical single-cell data.',
+        },
+        solution: {
+          vi: 'Phát triển kiến trúc mô-đun Python gồm pipeline xử lý scRNA-seq (GSE130973) & SenMayo scoring, mô phỏng mạng gen Boolean MaBoSS (3D Waddington landscape, sensitivity analysis), mô-đun lý sinh (Michaelis-Menten ODE, 3D Molecular Docking ΔG, Horvath Epigenetic Clock), xuất SBML Level 3 XML và giao diện tương tác Streamlit kèm GitHub Actions CI.',
+          en: 'Engineered modular Python packages covering GSE130973 scRNA-seq QC & SenMayo scoring, MaBoSS stochastic Boolean simulations (3D Waddington landscape, Sobol sensitivity), biophysics modules (Michaelis-Menten ODE, 3D Molecular Docking ΔG, Horvath Epigenetic Clock), SBML Level 3 export, and an interactive Streamlit dashboard with GitHub Actions CI.',
+        },
+        impact: {
+          vi: 'Hoàn thiện bộ công cụ nghiên cứu mã nguồn mở (MIT License) có trích dẫn khoa học rõ ràng, tái lập được kết quả và dễ thao tác trực quan qua trình duyệt.',
+          en: 'Shipped a reproducible, MIT-licensed research workbench with formal scientific citations and an accessible browser interface.',
         },
       },
       link: 'https://github.com/HIepNgoc2006/ADN',
