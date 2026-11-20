@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.local
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# CodeGraph cache
+.codegraph/
+
+# Private documents / CV & build info
+*.pdf
+*.tsbuildinfo
