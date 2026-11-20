@@ -19,3 +19,4 @@ Thumbs.db
 # Private documents / CV & build info
 *.pdf
 *.tsbuildinfo
+docs/cv/

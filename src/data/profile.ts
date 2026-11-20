@@ -111,32 +111,32 @@ export const PROFILE: ProfileData = {
       id: 'commerce',
       accent: 'amber',
       title: {
-        vi: 'Buôn bán & Kinh doanh',
-        en: 'Commerce & Trading',
+        vi: 'Kinh doanh & Tư vấn Sức khỏe',
+        en: 'Health Commerce & Wellness Coaching',
       },
       shortTitle: {
-        vi: 'Buôn bán',
-        en: 'Commerce',
+        vi: 'Kinh doanh & Sức khỏe',
+        en: 'Commerce & Wellness',
       },
       subtitle: {
-        vi: 'Chọn nguồn hàng, định giá & vận hành bán lẻ, bán sỉ',
-        en: 'Supplier sourcing, pricing & multi-channel retail',
+        vi: 'Kinh doanh thực phẩm sức khỏe (V99 Group) & tư vấn dinh dưỡng (Herbalife)',
+        en: 'Health supplement sales (V99 Group) & wellness coaching (Herbalife)',
       },
       description: {
-        vi: 'Trực tiếp làm từ khâu kiểm tra nguồn hàng, tính toán biên lợi nhuận, xoay vòng tồn kho đến tư vấn khách mua để giữ doanh thu ổn định.',
-        en: 'Hands-on execution from supplier verification and margin control to inventory turnover and repeat customer care.',
+        vi: 'Kinh doanh và tư vấn trực tiếp các dòng thực phẩm bảo vệ sức khỏe tại V99 Group (biometech.info), kết hợp kinh nghiệm đồng hành như Huấn luyện viên Sức khỏe (Wellness Coach) tại Herbalife.',
+        en: 'Direct sales and consultation for health & nutrition products at V99 Group (biometech.info), complemented by hands-on experience as a Herbalife Wellness Coach.',
       },
       highlights: [
         {
-          vi: 'Đánh giá thị trường, chọn ngách & kiểm soát chi phí đầu vào',
-          en: 'Market validation, SKU selection & unit cost control',
+          vi: 'Tư vấn thực phẩm bảo vệ sức khỏe & chăm sóc khách hàng tại V99 Group',
+          en: 'Health product sales, buyer consultation & follow-up at V99 Group',
         },
         {
-          vi: 'Vận hành bán hàng đa kênh linh hoạt, giữ tệp khách quen',
-          en: 'Lean multi-channel sales focused on repeat buyers',
+          vi: 'Tư vấn chế độ dinh dưỡng cá nhân hóa & đồng hành thói quen sống lành mạnh (Herbalife)',
+          en: 'Personalized nutrition guidance & healthy habit coaching (Herbalife)',
         },
       ],
-      tags: ['Sourcing', 'E-commerce', 'Sales Ops', 'Pricing', 'CRM'],
+      tags: ['V99 Group', 'Herbalife', 'Health & Wellness', 'Consultative Sales', 'CRM'],
     },
     {
       id: 'marketing',
@@ -173,32 +173,32 @@ export const PROFILE: ProfileData = {
       id: 'logistics',
       accent: 'emerald',
       title: {
-        vi: 'Logistics — Bệnh viện Việt Đức',
-        en: 'Logistics — Viet Duc Hospital',
+        vi: 'Hậu cần Vật tư Phẫu thuật — Viện Việt Đức',
+        en: 'Surgical Supply Logistics — Viet Duc Hospital',
       },
       shortTitle: {
-        vi: 'Logistics Việt Đức',
+        vi: 'Hậu cần Việt Đức',
         en: 'Viet Duc Logistics',
       },
       subtitle: {
-        vi: 'Điều phối hậu cần trong môi trường bệnh viện ngoại khoa tuyến đầu',
-        en: 'High-precision logistics in a top-tier surgical hospital',
+        vi: 'Vận chuyển, phân loại & đưa đi khử trùng đinh vít phẫu thuật cho Kho Kỹ Thuật Cao',
+        en: 'Transport, sorting & sterilization flow of surgical implants for High-Tech Storage',
       },
       description: {
-        vi: 'Phụ trách điều phối giao nhận và luồng hậu cần phục vụ hoạt động tại Bệnh viện Hữu nghị Việt Đức — nơi sai sót nhỏ cũng ảnh hưởng trực tiếp tới tiến độ.',
-        en: 'Coordinating dispatch and supply flow supporting Viet Duc University Hospital — where timeliness and accuracy are non-negotiable.',
+        vi: 'Đảm nhiệm khâu vận chuyển đinh vít phẫu thuật, phân loại chính xác từng chủng loại và thực hiện quy trình mang đi khử trùng/tiệt khuẩn phục vụ Kho Kỹ Thuật Cao tại Bệnh viện Hữu nghị Việt Đức.',
+        en: 'Responsible for transporting surgical screws and implants, sorting by exact specification, and managing sterilization turnaround for the High-Tech Storage unit at Viet Duc University Hospital.',
       },
       highlights: [
         {
-          vi: 'Điều phối luồng vật tư, chứng từ & bàn giao đúng khung giờ',
-          en: 'On-time coordination of supplies, records & handovers',
+          vi: 'Vận chuyển và phân loại chính xác đinh vít, dụng cụ phẫu thuật theo từng bộ',
+          en: 'Accurate transport and classification of surgical screws and instrument sets',
         },
         {
-          vi: 'Kiểm chéo chặt chẽ và xử lý nhanh tình huống phát sinh',
-          en: 'Double-check verification and calm incident handling',
+          vi: 'Đưa đi khử trùng/tiệt khuẩn và bàn giao đúng tiến độ cho Kho Kỹ Thuật Cao',
+          en: 'Sterilization handoff and on-time return to High-Tech Surgical Storage',
         },
       ],
-      tags: ['Bệnh viện Việt Đức', 'Supply Chain', 'Dispatch', 'SLA', 'Coordination'],
+      tags: ['Bệnh viện Việt Đức', 'Kho Kỹ Thuật Cao', 'Vật tư Phẫu thuật', 'Khử trùng', 'Kiểm soát'],
     },
   ],
 
@@ -243,35 +243,35 @@ export const PROFILE: ProfileData = {
       id: 'proj-camera-ai',
       domain: 'programming',
       title: {
-        vi: 'Camera AI Trường học — Giám sát & phân tích 7 nghiệp vụ thị giác',
-        en: 'School AI Camera — 7-Function Computer Vision Platform',
+        vi: 'Camera AI Trường học (Bình Minh Group) — Nhận diện học sinh & hành vi',
+        en: 'School AI Camera (Binh Minh Group) — Student Count & Behavior Vision',
       },
       summary: {
-        vi: 'Hệ thống phần mềm phân tích video AI cho môi trường trường học: điểm danh học sinh, chấm công giáo viên, phát hiện xả rác, hút thuốc, đồng phục, PPE bếp và chỉ số biểu cảm.',
-        en: 'Multi-task school video analytics covering student attendance, staff timekeeping, littering, smoking detection, uniforms, kitchen PPE, and classroom engagement indicators.',
+        vi: 'Phát triển ứng dụng App/Web và hệ thống Camera tích hợp AI tại Bình Minh Group: nhận diện số lượng học sinh, điểm danh, chấm công giáo viên và phân tích hành vi (xả rác, hút thuốc, đồng phục, PPE bếp).',
+        en: 'Built App/Web interfaces and multi-task AI Camera workflows at Binh Minh Group: student counting, attendance, staff timekeeping, and safety behavior detection.',
       },
       metric: {
-        vi: '7 nghiệp vụ Computer Vision chuẩn hóa trong một kiến trúc',
-        en: '7 standardized CV workflows in one modular architecture',
+        vi: 'App/Web + 7 nghiệp vụ Camera AI tại Bình Minh Group',
+        en: 'App/Web + 7 AI Camera workflows at Binh Minh Group',
       },
       role: {
-        vi: 'System Architect & Python Developer',
-        en: 'System Architect & Python Developer',
+        vi: 'App & Web Developer — Bình Minh Group',
+        en: 'App & Web Developer — Binh Minh Group',
       },
       period: '2026',
-      tags: ['Python', 'Computer Vision', 'ANSVIS', 'Architecture', 'QA'],
+      tags: ['Bình Minh Group', 'App & Web', 'Python', 'Computer Vision', 'ANSVIS'],
       details: {
         context: {
-          vi: 'Trường học cần giám sát an toàn và tự động hóa điểm danh trên nhiều luồng camera nhưng phải kiểm soát chặt ranh giới quyền riêng tư và độ tin cậy cảnh báo.',
-          en: 'Schools needed automated attendance and safety monitoring across camera feeds with clear privacy boundaries and dependable alert quality.',
+          vi: 'Nhà trường cần hệ thống phần mềm giám sát thông minh qua camera để tự động đếm/điểm danh học sinh và cảnh báo sớm các hành vi mất an toàn trong khuôn viên.',
+          en: 'Schools needed smart camera software to automate student counting/attendance and surface real-time campus safety alerts.',
         },
         solution: {
-          vi: 'Thiết kế kiến trúc đa luồng nghiệp vụ rõ ràng (điểm danh, chấm công, an toàn bếp PPE, đồng phục, hành vi vi phạm), chuẩn hóa bộ kiểm thử tự động và quy trình đánh giá readiness trước triển khai.',
-          en: 'Structured 7 distinct CV workstreams (attendance, kitchen PPE, uniforms, safety alerts) with automated status verification and strict deployment readiness checks.',
+          vi: 'Tham gia phát triển phần mềm App & Web tại Bình Minh Group kết nối luồng phân tích AI Camera cho 7 chức năng thực tế (nhận diện số lượng & điểm danh học sinh, chấm công giáo viên, xả rác, nghi vấn hút thuốc, đồng phục, PPE bếp và chỉ số biểu cảm).',
+          en: 'Developed App & Web components at Binh Minh Group integrated with 7 Computer Vision workstreams covering attendance, student counting, kitchen PPE, uniforms, and safety alerts.',
         },
         impact: {
-          vi: 'Đưa bài toán camera AI từ ý tưởng rời rạc thành hệ thống có đặc tả rõ ràng, dễ kiểm soát chất lượng và sẵn sàng bàn giao.',
-          en: 'Turned fragmented video analytics requirements into a well-specified, verifiable, handoff-ready system.',
+          vi: 'Đưa bài toán camera AI trường học thành hệ thống vận hành rõ ràng, dễ theo dõi trên giao diện quản trị và sẵn sàng triển khai thực tế.',
+          en: 'Delivered a structured, verifiable school AI monitoring platform ready for operational deployment.',
         },
       },
     },
@@ -352,37 +352,38 @@ export const PROFILE: ProfileData = {
       id: 'proj-commerce-channel',
       domain: 'commerce',
       title: {
-        vi: 'Vận hành nguồn hàng & bán lẻ sản phẩm tiêu dùng',
-        en: 'Consumer Product Sourcing & Direct Retail',
+        vi: 'Kinh doanh Thực phẩm Sức khỏe (V99 Group) & Wellness Coach (Herbalife)',
+        en: 'Health Supplement Sales (V99 Group) & Wellness Coach (Herbalife)',
       },
       summary: {
-        vi: 'Trực tiếp tuyển chọn nguồn hàng, kiểm soát tồn kho và duy trì kênh bán có tỷ lệ khách quay lại ổn định.',
-        en: 'Direct supplier vetting, lean stock control, and repeat-driven retail operations.',
+        vi: 'Trực tiếp tư vấn, bán hàng các dòng sản phẩm chăm sóc sức khỏe tại V99 Group (biometech.info) và đồng hành tư vấn chế độ dinh dưỡng theo mô hình Huấn luyện viên Sức khỏe Herbalife.',
+        en: 'Direct consultative sales of health supplements at V99 Group (biometech.info) paired with personalized nutrition and lifestyle coaching at Herbalife.',
       },
       metric: {
-        vi: 'Duy trì vòng quay hàng gọn & biên lợi nhuận ổn định',
-        en: 'Lean stock turnover & healthy unit margins',
+        vi: 'Tư vấn dựa trên nhu cầu thực & đồng hành dài hạn cùng khách',
+        en: 'Need-based health consultation & long-term customer care',
       },
       role: {
-        vi: 'Vận hành kinh doanh',
-        en: 'Commerce Operator',
+        vi: 'Tư vấn kinh doanh & Huấn luyện viên Sức khỏe',
+        en: 'Health Sales & Wellness Coach',
       },
-      period: '2024 – 2026',
-      tags: ['Sourcing', 'Inventory', 'Multi-channel', 'Customer Care'],
+      period: 'V99 Group · Herbalife',
+      tags: ['V99 Group', 'biometech.info', 'Herbalife', 'Dinh dưỡng', 'Tư vấn'],
       details: {
         context: {
-          vi: 'Bán lẻ cạnh tranh mạnh về giá khiến nhiều shop ôm tồn kho hoặc bị ăn mòn biên lợi nhuận bởi chi phí vận chuyển và hoàn hàng.',
-          en: 'Price-sensitive retail markets quickly erode margins when inventory sits idle or return rates climb.',
+          vi: 'Sản phẩm sức khỏe và dinh dưỡng đòi hỏi sự tin tưởng cao — khách hàng cần người lắng nghe thể trạng, giải thích rõ cách dùng và theo sát quá trình sử dụng thay vì bán đứt đoạn.',
+          en: 'Health and nutrition products require high trust — customers expect attentive assessment, clear usage guidance, and ongoing follow-up rather than one-off selling.',
         },
         solution: {
-          vi: 'Chuẩn hóa quy trình kiểm tra mẫu đầu vào, chia rõ sản phẩm phễu và sản phẩm chủ lực, đồng thời giữ lịch chăm sóc khách sau khi nhận hàng.',
-          en: 'Standardized sample checks before restocking, separated entry SKUs from core margin items, and kept structured post-delivery follow-ups.',
+          vi: 'Kinh doanh các dòng thực phẩm bảo vệ sức khỏe tại V99 Group (biometech.info) kết hợp áp dụng tư duy Huấn luyện viên Sức khỏe (Herbalife): đánh giá mục tiêu sức khỏe, gợi ý thói quen ăn uống/sinh hoạt hợp lý và theo dõi tiến trình định kỳ.',
+          en: 'Managed direct health product sales at V99 Group (biometech.info) alongside Herbalife Wellness Coach practices: assessing goals, guiding practical daily nutrition habits, and checking in consistently.',
         },
         impact: {
-          vi: 'Giữ tồn kho ở mức an toàn, kiểm soát tốt tỷ lệ hoàn đơn và xây dựng được tệp khách quen đặt mua định kỳ.',
-          en: 'Kept inventory lean, lowered return friction, and built a dependable base of recurring customers.',
+          vi: 'Rèn kỹ năng giao tiếp thuyết phục, lắng nghe insight khách hàng sâu sắc và xây dựng uy tín cá nhân bền vững trong nhóm sản phẩm chăm sóc sức khỏe.',
+          en: 'Sharpened consultative communication, customer empathy, and long-term trust building across health & wellness.',
         },
       },
+      link: 'https://biometech.info',
     },
     {
       id: 'proj-ads-affiliate',
@@ -424,35 +425,35 @@ export const PROFILE: ProfileData = {
       id: 'proj-vietduc-logistics',
       domain: 'logistics',
       title: {
-        vi: 'Điều phối Logistics tại Bệnh viện Hữu nghị Việt Đức',
-        en: 'Healthcare Logistics at Viet Duc University Hospital',
+        vi: 'Hậu cần Đinh vít Phẫu thuật — Kho Kỹ Thuật Cao, Bệnh viện Việt Đức',
+        en: 'Surgical Implant Logistics — High-Tech Storage, Viet Duc Hospital',
       },
       summary: {
-        vi: 'Quản lý luồng điều phối, giao nhận và hỗ trợ hậu cần trong môi trường bệnh viện ngoại khoa đầu ngành tại Hà Nội.',
-        en: 'Managing high-stakes dispatch and supply coordination inside Vietnam’s leading surgical hospital in Hanoi.',
+        vi: 'Thực hiện nhiệm vụ vận chuyển đinh vít phẫu thuật, phân loại đúng quy cách và đưa đi khử trùng/tiệt khuẩn phục vụ Kho Kỹ Thuật Cao tại Bệnh viện Hữu nghị Việt Đức.',
+        en: 'Handling transport, classification, and sterilization turnaround for surgical screws and implants supporting High-Tech Storage at Viet Duc University Hospital.',
       },
       metric: {
-        vi: 'Bàn giao đúng tiến độ trong môi trường cường độ cao',
-        en: 'Reliable on-time handovers under clinical pressure',
+        vi: 'Phân loại chuẩn xác · Khử trùng đúng quy trình cho Kho Kỹ Thuật Cao',
+        en: 'Exact sorting & sterile turnaround for surgical storage',
       },
       role: {
-        vi: 'Điều phối Logistics',
-        en: 'Logistics Coordinator',
+        vi: 'Nhân sự Hậu cần Vật tư Phẫu thuật',
+        en: 'Surgical Supply Logistics Staff',
       },
-      period: 'Hiện tại',
-      tags: ['Bệnh viện Việt Đức', 'Điều phối', 'Hậu cần Y tế', 'SLA'],
+      period: 'Bệnh viện Việt Đức',
+      tags: ['Bệnh viện Việt Đức', 'Kho Kỹ Thuật Cao', 'Đinh vít Phẫu thuật', 'Khử trùng'],
       details: {
         context: {
-          vi: 'Bệnh viện Hữu nghị Việt Đức tiếp nhận lưu lượng công việc rất lớn mỗi ngày, đòi hỏi khâu hậu cần và giao nhận phải khớp chính xác theo lịch chuyên môn.',
-          en: 'Viet Duc University Hospital operates at high daily clinical volume where logistics schedules must align tightly with medical workflows.',
+          vi: 'Kho Kỹ Thuật Cao tại Bệnh viện Hữu nghị Việt Đức quản lý lượng lớn đinh vít và vật tư phẫu thuật chuyên sâu, mọi khâu vận chuyển, phân loại và khử trùng đều phải chính xác tuyệt đối để kịp lịch mổ.',
+          en: 'High-Tech Storage at Viet Duc University Hospital handles specialized surgical screws and implants where transport, sorting, and sterilization accuracy directly affect surgical schedules.',
         },
         solution: {
-          vi: 'Thực hiện kiểm chéo đầu mục trước khi xuất/nhận, phân thứ tự ưu tiên theo mức độ gấp và duy trì liên lạc rõ ràng giữa các đầu mối.',
-          en: 'Maintained strict pre-dispatch checklists, urgency-based routing priorities, and clear handoff communication across teams.',
+          vi: 'Trực tiếp nhận điều phối vận chuyển vật tư, kiểm đếm phân loại cẩn thận theo đúng chủng loại/kích cỡ, bàn giao khâu khử trùng/tiệt khuẩn và hoàn trả đầy đủ về Kho Kỹ Thuật Cao.',
+          en: 'Executed direct transport assignments, verified and sorted surgical screws by specification, coordinated sterilization processing, and returned sterile kits accurately to High-Tech Storage.',
         },
         impact: {
-          vi: 'Đảm bảo tiến độ bàn giao an toàn, chuẩn xác và rèn luyện tác phong làm việc kỷ luật áp dụng ngược lại cho các dự án công nghệ và kinh doanh.',
-          en: 'Delivered consistent, accurate handovers while forging operational reliability carried into every commercial and engineering project.',
+          vi: 'Đảm bảo vật tư phẫu thuật luôn sẵn sàng, đúng chuẩn và rèn luyện tính cẩn trọng, chịu áp lực tốt trong môi trường y tế tuyến đầu.',
+          en: 'Kept critical surgical supplies ready on schedule while building high-discipline attention to detail under clinical pressure.',
         },
       },
     },
@@ -460,14 +461,44 @@ export const PROFILE: ProfileData = {
 
   experiences: [
     {
-      id: 'exp-vietduc',
+      id: 'exp-binhminh',
       period: {
-        vi: 'Hiện tại',
-        en: 'Present',
+        vi: 'Bình Minh Group',
+        en: 'Binh Minh Group',
       },
       role: {
-        vi: 'Điều phối Logistics & Hậu cần',
-        en: 'Healthcare Logistics Coordinator',
+        vi: 'Lập trình viên App & Web — Dự án Camera AI Trường học',
+        en: 'App & Web Developer — School AI Camera Project',
+      },
+      organization: {
+        vi: 'Bình Minh Group',
+        en: 'Binh Minh Group',
+      },
+      domain: 'programming',
+      description: {
+        vi: 'Tham gia phát triển ứng dụng App và Web cho hệ thống Camera tích hợp AI tại trường học, hỗ trợ nhận diện số lượng học sinh, điểm danh và phát hiện hành vi.',
+        en: 'Developed App and Web software for an AI-integrated school camera platform covering student counting, attendance, and behavior detection.',
+      },
+      achievements: [
+        {
+          vi: 'Xây dựng giao diện quản trị và luồng ứng dụng App/Web kết nối dữ liệu từ hệ thống Camera AI',
+          en: 'Built App/Web interfaces and workflows connected to live AI Camera analytics',
+        },
+        {
+          vi: 'Triển khai song song các dự án cá nhân chuyên sâu: Monitor AR (Unity/PyTorch), Vistay (React Native/GraphQL), 36chan (Next.js PWA) & AutoVideoBot',
+          en: 'Built independent engineering projects in parallel: Monitor AR (Unity/PyTorch), Vistay (React Native/GraphQL), 36chan (Next.js PWA) & AutoVideoBot',
+        },
+      ],
+    },
+    {
+      id: 'exp-vietduc',
+      period: {
+        vi: 'Kho Kỹ Thuật Cao',
+        en: 'High-Tech Storage',
+      },
+      role: {
+        vi: 'Hậu cần & Điều phối Vật tư Phẫu thuật',
+        en: 'Surgical Supply Logistics Coordinator',
       },
       organization: {
         vi: 'Bệnh viện Hữu nghị Việt Đức',
@@ -475,77 +506,47 @@ export const PROFILE: ProfileData = {
       },
       domain: 'logistics',
       description: {
-        vi: 'Điều phối vận hành logistics trong môi trường y tế cường độ cao, đề cao tính chính xác, bảo mật và đúng giờ.',
-        en: 'Coordinating daily logistics operations in a high-intensity clinical setting with strict accuracy and punctuality.',
+        vi: 'Nhận nhiệm vụ vận chuyển đinh vít phẫu thuật, phân loại đúng chủng loại và mang đi khử trùng phục vụ Kho Kỹ Thuật Cao tại Bệnh viện Hữu nghị Việt Đức.',
+        en: 'Handled transport, specification sorting, and sterilization turnaround of surgical screws and implants for High-Tech Storage at Viet Duc University Hospital.',
       },
       achievements: [
         {
-          vi: 'Phối hợp nhiều đầu mối, xử lý gọn các yêu cầu phát sinh gấp',
-          en: 'Coordinated multiple touchpoints and resolved urgent dispatch changes calmly',
+          vi: 'Vận chuyển, kiểm đếm và phân loại chính xác các bộ đinh vít phẫu thuật theo yêu cầu kho',
+          en: 'Transported, counted, and sorted surgical screw sets accurately to storage specs',
         },
         {
-          vi: 'Giữ kỷ luật đối soát chứng từ và bàn giao rõ ràng',
-          en: 'Maintained disciplined record verification and clean handovers',
+          vi: 'Đảm bảo quy trình mang đi khử trùng và bàn giao lại đúng tiến độ, không để xảy ra nhầm lẫn',
+          en: 'Maintained punctual sterilization handoffs with zero mix-ups',
         },
       ],
     },
     {
-      id: 'exp-tech-builder',
+      id: 'exp-v99-herbalife',
       period: {
-        vi: 'Song song · Độc lập',
-        en: 'Ongoing · Independent',
+        vi: 'Kinh doanh & Sức khỏe',
+        en: 'Commerce & Wellness',
       },
       role: {
-        vi: 'Kỹ sư Phần mềm, Computer Vision & Automation',
-        en: 'Software, Computer Vision & Automation Engineer',
+        vi: 'Kinh doanh Thực phẩm Sức khỏe & Huấn luyện viên Sức khỏe',
+        en: 'Health Product Sales & Wellness Coach',
       },
       organization: {
-        vi: 'Dự án sản phẩm & Nghiên cứu ứng dụng',
-        en: 'Product Engineering & Applied AI Projects',
+        vi: 'V99 Group (biometech.info) · Herbalife',
+        en: 'V99 Group (biometech.info) · Herbalife',
       },
-      domain: 'programming',
+      domain: 'commerce',
       description: {
-        vi: 'Xây dựng hệ thống Fullstack Web/PWA & Mobile (Vistay, 36chan), ứng dụng thị giác máy tính & AR (Monitor AR, Camera AI trường học) và hệ thống tự động hóa chạy trên Linux/Docker (AutoVideoBot).',
-        en: 'Building fullstack Web/PWA & Mobile platforms (Vistay, 36chan), Computer Vision & AR apps (Monitor AR, School AI Camera), and Linux/Docker automation pipelines (AutoVideoBot).',
+        vi: 'Tư vấn, kinh doanh thực phẩm bảo vệ sức khỏe tại V99 Group (biometech.info) và tham gia vai trò Huấn luyện viên Sức khỏe tại Herbalife — kết hợp kinh nghiệm quảng cáo & tiếp thị sản phẩm.',
+        en: 'Direct sales of health supplements at V99 Group (biometech.info) and Wellness Coach activities with Herbalife, alongside product advertising and affiliate marketing.',
       },
       achievements: [
         {
-          vi: 'Triển khai được cả hai đầu: AI/Deep Learning (PyTorch, MediaPipe, Unity) lẫn sản phẩm Web/Mobile (Next.js, React Native, GraphQL)',
-          en: 'Delivered across both applied AI/CV (PyTorch, MediaPipe, Unity) and production Web/Mobile stacks (Next.js, React Native, GraphQL)',
+          vi: 'Tư vấn trực tiếp sản phẩm chăm sóc sức khỏe, lắng nghe nhu cầu và giữ mối quan hệ tốt với khách hàng',
+          en: 'Consulted directly on health products with strong buyer empathy and follow-up',
         },
         {
-          vi: 'Biến công cụ tự động hóa (Docker, Playwright, video bot) thành đòn bẩy trực tiếp cho hoạt động tiếp thị và vận hành',
-          en: 'Turned automation tooling (Docker, Playwright, video bots) into direct leverage for marketing and operations',
-        },
-      ],
-    },
-    {
-      id: 'exp-commerce-marketing',
-      period: {
-        vi: 'Song song · Thực chiến',
-        en: 'Ongoing · Hands-on',
-      },
-      role: {
-        vi: 'Buôn bán, Quảng cáo sản phẩm & Tiếp thị viên',
-        en: 'Commerce, Product Ads & Affiliate',
-      },
-      organization: {
-        vi: 'Kinh doanh độc lập & Hợp tác nhãn hàng',
-        en: 'Independent Commerce & Brand Partners',
-      },
-      domain: 'marketing',
-      description: {
-        vi: 'Trực tiếp kinh doanh sản phẩm, triển khai quảng cáo chuyển đổi và hợp tác tiếp thị viên với nhà cung cấp.',
-        en: 'Running direct product sales, performance campaigns, and affiliate partnerships with suppliers.',
-      },
-      achievements: [
-        {
-          vi: 'Nắm trọn hành trình mua hàng từ điểm chạm quảng cáo tới khi giao nhận xong',
-          en: 'Owned the full buyer journey from first ad impression through final delivery',
-        },
-        {
-          vi: 'Ra quyết định dựa trên chi phí đơn thực thay vì chỉ số hiển thị bề nổi',
-          en: 'Optimized decisions on real order economics rather than vanity reach metrics',
+          vi: 'Đồng hành hướng dẫn dinh dưỡng, thói quen sinh hoạt lành mạnh theo mô hình Wellness Coach của Herbalife',
+          en: 'Guided clients on balanced nutrition and daily wellness habits under Herbalife’s coaching model',
         },
       ],
     },
