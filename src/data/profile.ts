@@ -215,27 +215,27 @@ export const PROFILE: ProfileData = {
         en: 'Webcam-based 3D technical training simulator combining dynamic hand-gesture deep learning, Unity 3D interaction, and Gemini AI guidance.',
       },
       metric: {
-        vi: 'Tương tác 3D thời gian thực qua Webcam (PyTorch + Unity)',
-        en: 'Real-time 3D gesture control via standard webcam',
+        vi: '95.8% accuracy (14 cử chỉ) · ≥30 FPS · 0ms thao tác cục bộ',
+        en: '95.8% accuracy (14 gestures) · ≥30 FPS · 0ms local grab',
       },
       role: {
         vi: 'AI & Unity Developer',
         en: 'AI & Unity Developer',
       },
       period: '2026',
-      tags: ['Unity C#', 'Python', 'PyTorch', 'MediaPipe', 'Gemini API'],
+      tags: ['Unity C#', 'Python', 'PyTorch', 'ONNX', 'MediaPipe', 'Gemini API'],
       details: {
         context: {
           vi: 'Đào tạo thao tác lắp ráp/kỹ thuật thực tế thường tốn kém thiết bị mẫu hoặc kính AR/VR chuyên dụng.',
           en: 'Hands-on technical training typically requires costly physical hardware or dedicated AR/VR headsets.',
         },
         solution: {
-          vi: 'Huấn luyện mô hình phân loại chuỗi thời gian cử chỉ tay động trong không gian 3D bằng PyTorch + MediaPipe Hands, truyền tín hiệu thời gian thực sang môi trường Unity 2022.3 LTS và tích hợp Gemini 2.0 Flash hướng dẫn quy trình.',
-          en: 'Trained a time-series 3D hand gesture classifier using PyTorch and MediaPipe Hands, streamed real-time controls into Unity 2022.3 LTS, and integrated Gemini 2.0 Flash for interactive guidance.',
+          vi: 'Huấn luyện & so sánh 4 kiến trúc Deep Learning phân loại 14 cử chỉ tay động 3D (MLP → 1D-CNN → LSTM → Transformer) bằng PyTorch + MediaPipe Hands, xuất ONNX chạy Unity Sentis trên 49 C# scripts (kiến trúc Producer-Consumer) và tích hợp Gemini 2.0 Flash hướng dẫn quy trình.',
+          en: 'Trained and benchmarked 4 Deep Learning architectures across 14 dynamic 3D hand gestures (MLP → 1D-CNN → LSTM → Transformer) in PyTorch + MediaPipe, exported ONNX to Unity Sentis across 49 thread-safe C# scripts, and integrated Gemini 2.0 Flash.',
         },
         impact: {
-          vi: 'Cho phép người học thao tác mô hình 3D trực quan chỉ với webcam thông thường, rút ngắn rào cản phần cứng khi đào tạo kỹ thuật.',
-          en: 'Enabled natural 3D manipulation using a standard webcam, removing specialized headset barriers for interactive training.',
+          vi: 'Nâng độ chính xác từ 72.4% (MLP baseline) lên 95.8% (Transformer, +23.4%), duy trì ≥30 FPS thời gian thực với độ trễ 0ms cho thao tác gắp/thả cục bộ trên webcam thường.',
+          en: 'Lifted classification accuracy from 72.4% (MLP baseline) to 95.8% (Transformer, +23.4%), sustaining ≥30 FPS real-time interaction with 0ms local grab/release latency on a standard webcam.',
         },
       },
     },
@@ -251,8 +251,8 @@ export const PROFILE: ProfileData = {
         en: 'Built App/Web interfaces and multi-task AI Camera workflows at Binh Minh Group: student counting, attendance, staff timekeeping, and safety behavior detection.',
       },
       metric: {
-        vi: 'App/Web + 7 nghiệp vụ Camera AI tại Bình Minh Group',
-        en: 'App/Web + 7 AI Camera workflows at Binh Minh Group',
+        vi: '58/73 issue phạm vi chính (79.5%) · 7 nghiệp vụ AI · 32/32 containment pass',
+        en: '58/73 active issues (79.5%) · 7 AI workflows · 32/32 containment pass',
       },
       role: {
         vi: 'App & Web Developer — Bình Minh Group',
@@ -270,8 +270,8 @@ export const PROFILE: ProfileData = {
           en: 'Developed App & Web components at Binh Minh Group integrated with 7 Computer Vision workstreams covering attendance, student counting, kitchen PPE, uniforms, and safety alerts.',
         },
         impact: {
-          vi: 'Đưa bài toán camera AI trường học thành hệ thống vận hành rõ ràng, dễ theo dõi trên giao diện quản trị và sẵn sàng triển khai thực tế.',
-          en: 'Delivered a structured, verifiable school AI monitoring platform ready for operational deployment.',
+          vi: 'Đóng hoàn chỉnh 58/73 issue phạm vi chính (79.5%) qua 5 milestone, đạt 0 lỗi chính sách trên script kiểm định tự động và pass 32/32 mục tiêu containment cùng các cổng CI (python-quality, secret-scan).',
+          en: 'Closed 58/73 active scope issues (79.5%) across 5 milestones with zero policy findings, 32/32 containment checks passing, and green CI gates (python-quality, secret-scan).',
         },
       },
     },
@@ -287,8 +287,8 @@ export const PROFILE: ProfileData = {
         en: 'Engineered multi-app ecosystems (Customer, Host, Admin, API Gateway, Expo Mobile) and realtime PWA architectures serving Web, Mobile, and Desktop.',
       },
       metric: {
-        vi: 'Kiến trúc đa phân hệ: Web · Mobile · Realtime API',
-        en: 'Multi-app architecture: Web, Mobile & Realtime API',
+        vi: '11 microservices (Vistay) · 609/609 test tự động pass (36chan)',
+        en: '11 microservices (Vistay) · 609/609 automated tests passing (36chan)',
       },
       role: {
         vi: 'Fullstack & Mobile Developer',
@@ -302,12 +302,12 @@ export const PROFILE: ProfileData = {
           en: 'Modern service and community platforms require synchronized workflows across customers, hosts, and admins on both web and mobile.',
         },
         solution: {
-          vi: 'Triển khai Vistay với kiến trúc tách biệt frontend_customer, frontend_host, frontend_admin, gateway_api và app Expo React Native (GraphQL/Apollo, OIDC); xây dựng 36chan bằng Next.js 16 PWA, Express 5, MongoDB Atlas, Redis và Socket.IO.',
-          en: 'Built Vistay across modular web portals, GraphQL/OIDC gateway, and Expo React Native mobile app; developed 36chan as a standalone PWA powered by Next.js 16, Express 5, MongoDB Atlas, Redis, and Socket.IO.',
+          vi: 'Triển khai Vistay với 11 microservices tách domain, 3 cổng Web (Customer, Host, Admin), Gateway API (GraphQL/OIDC) và app Expo React Native kèm 14 bộ đặc tả; xây dựng 36chan bằng Next.js 16 PWA, Express 5, MongoDB Atlas, Redis và Socket.IO.',
+          en: 'Built Vistay across 11 domain microservices, 3 web portals (Customer, Host, Admin), GraphQL/OIDC gateway, and Expo React Native mobile app with 14 architecture specs; developed 36chan as a standalone PWA powered by Next.js 16, Express 5, MongoDB Atlas, Redis, and Socket.IO.',
         },
         impact: {
-          vi: 'Chứng minh khả năng tự thiết kế và triển khai trọn vẹn hệ thống phần mềm nhiều tầng từ giao diện người dùng đến máy chủ realtime.',
-          en: 'Demonstrated full-lifecycle ownership from responsive UI and mobile apps to scalable realtime backend services.',
+          vi: '36chan đạt 100% kiểm thử tự động (421/421 test backend, 160 test frontend, 28/28 kịch bản E2E pass); Vistay hoàn thiện kiến trúc 11 dịch vụ + 4 ứng dụng client sẵn sàng mở rộng.',
+          en: '36chan passed 100% of automated tests (421 backend, 160 frontend, 28 browser E2E); Vistay established a scalable 11-service backend + 4-client ecosystem.',
         },
       },
     },
@@ -323,8 +323,8 @@ export const PROFILE: ProfileData = {
         en: 'Automated Python pipeline on Ubuntu Server 24 (Systemd + Docker): Gemini API scripting, MoneyPrinterTurbo video rendering over RAM Disk (/dev/shm), and quota-safe YouTube Data API uploads.',
       },
       metric: {
-        vi: 'Tự động hóa 24/7 qua Systemd + tối ưu RAM Disk (/dev/shm)',
-        en: '24/7 Systemd service with RAM Disk (/dev/shm) I/O optimization',
+        vi: 'Tăng tốc I/O 10–20× qua RAM Disk · Auto-restart 10s · ~1,600/10k quota',
+        en: '10–20× faster scratch I/O via RAM Disk · 10s auto-restart · Quota-guarded',
       },
       role: {
         vi: 'Python & Linux Automation Developer',
@@ -359,8 +359,8 @@ export const PROFILE: ProfileData = {
         en: 'Open-source computational biology workbench (Python & Streamlit) simulating cellular senescence via Boolean gene regulatory networks (MaBoSS), validated against scRNA-seq (GSE130973) and 279 CellAge genes.',
       },
       metric: {
-        vi: 'Streamlit Workbench · MaBoSS · scRNA-seq (GSE130973) · MIT',
-        en: 'Streamlit Workbench · MaBoSS · scRNA-seq (GSE130973) · MIT',
+        vi: '15,000 tế bào scRNA-seq · +9.0% Accuracy vs SenMayo · 7/7 phases',
+        en: '15,000 scRNA-seq cells · +9.0% Accuracy vs SenMayo · 7/7 phases',
       },
       role: {
         vi: 'Computational Biology & Python Developer',
@@ -378,8 +378,8 @@ export const PROFILE: ProfileData = {
           en: 'Engineered modular Python packages covering GSE130973 scRNA-seq QC & SenMayo scoring, MaBoSS stochastic Boolean simulations (3D Waddington landscape, Sobol sensitivity), biophysics modules (Michaelis-Menten ODE, 3D Molecular Docking ΔG, Horvath Epigenetic Clock), SBML Level 3 export, and an interactive Streamlit dashboard with GitHub Actions CI.',
         },
         impact: {
-          vi: 'Hoàn thiện bộ công cụ nghiên cứu mã nguồn mở (MIT License) có trích dẫn khoa học rõ ràng, tái lập được kết quả và dễ thao tác trực quan qua trình duyệt.',
-          en: 'Shipped a reproducible, MIT-licensed research workbench with formal scientific citations and an accessible browser interface.',
+          vi: 'Hoàn thành 7/7 phase & 4/4 checkpoint trên 15,000 tế bào đơn (GSE130973); mô hình mạng gen Boolean mở rộng đạt Accuracy 63.50% (+9.00% so với baseline SenMayo 54.50%), Recall 77.52%, ROC-AUC 0.7111.',
+          en: 'Completed 7/7 phases and 4/4 checkpoints on 15,000 single cells (GSE130973); extended Boolean model reached 63.50% Accuracy (+9.00% over 54.50% SenMayo baseline), 77.52% Recall, and 0.7111 ROC-AUC.',
         },
       },
       link: 'https://github.com/HIepNgoc2006/ADN',
