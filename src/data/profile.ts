@@ -123,8 +123,8 @@ export const PROFILE: ProfileData = {
         en: 'Health supplement sales (V99 Group) & wellness coaching (Herbalife)',
       },
       description: {
-        vi: 'Kinh doanh và tư vấn trực tiếp các dòng thực phẩm bảo vệ sức khỏe tại V99 Group (biometech.info), kết hợp kinh nghiệm đồng hành như Huấn luyện viên Sức khỏe (Wellness Coach) tại Herbalife.',
-        en: 'Direct sales and consultation for health & nutrition products at V99 Group (biometech.info), complemented by hands-on experience as a Herbalife Wellness Coach.',
+        vi: 'Kinh doanh và tư vấn trực tiếp các dòng thực phẩm bảo vệ sức khỏe tại V99 Group (biomedtech.info), kết hợp kinh nghiệm đồng hành như Huấn luyện viên Sức khỏe (Wellness Coach) tại Herbalife.',
+        en: 'Direct sales and consultation for health & nutrition products at V99 Group (biomedtech.info), complemented by hands-on experience as a Herbalife Wellness Coach.',
       },
       highlights: [
         {
@@ -392,8 +392,8 @@ export const PROFILE: ProfileData = {
         en: 'Health Supplement Sales (V99 Group) & Wellness Coach (Herbalife)',
       },
       summary: {
-        vi: 'Trực tiếp tư vấn, bán hàng các dòng sản phẩm chăm sóc sức khỏe tại V99 Group (biometech.info) và đồng hành tư vấn chế độ dinh dưỡng theo mô hình Huấn luyện viên Sức khỏe Herbalife.',
-        en: 'Direct consultative sales of health supplements at V99 Group (biometech.info) paired with personalized nutrition and lifestyle coaching at Herbalife.',
+        vi: 'Trực tiếp tư vấn, bán hàng các dòng sản phẩm chăm sóc sức khỏe tại V99 Group (biomedtech.info) và đồng hành tư vấn chế độ dinh dưỡng theo mô hình Huấn luyện viên Sức khỏe Herbalife.',
+        en: 'Direct consultative sales of health supplements at V99 Group (biomedtech.info) paired with personalized nutrition and lifestyle coaching at Herbalife.',
       },
       metric: {
         vi: 'Tư vấn dựa trên nhu cầu thực & đồng hành dài hạn cùng khách',
@@ -404,22 +404,22 @@ export const PROFILE: ProfileData = {
         en: 'Health Sales & Wellness Coach',
       },
       period: 'V99 Group · Herbalife',
-      tags: ['V99 Group', 'biometech.info', 'Herbalife', 'Dinh dưỡng', 'Tư vấn'],
+      tags: ['V99 Group', 'biomedtech.info', 'Herbalife', 'Dinh dưỡng', 'Tư vấn'],
       details: {
         context: {
           vi: 'Sản phẩm sức khỏe và dinh dưỡng đòi hỏi sự tin tưởng cao — khách hàng cần người lắng nghe thể trạng, giải thích rõ cách dùng và theo sát quá trình sử dụng thay vì bán đứt đoạn.',
           en: 'Health and nutrition products require high trust — customers expect attentive assessment, clear usage guidance, and ongoing follow-up rather than one-off selling.',
         },
         solution: {
-          vi: 'Kinh doanh các dòng thực phẩm bảo vệ sức khỏe tại V99 Group (biometech.info) kết hợp áp dụng tư duy Huấn luyện viên Sức khỏe (Herbalife): đánh giá mục tiêu sức khỏe, gợi ý thói quen ăn uống/sinh hoạt hợp lý và theo dõi tiến trình định kỳ.',
-          en: 'Managed direct health product sales at V99 Group (biometech.info) alongside Herbalife Wellness Coach practices: assessing goals, guiding practical daily nutrition habits, and checking in consistently.',
+          vi: 'Kinh doanh các dòng thực phẩm bảo vệ sức khỏe tại V99 Group (biomedtech.info) kết hợp áp dụng tư duy Huấn luyện viên Sức khỏe (Herbalife): đánh giá mục tiêu sức khỏe, gợi ý thói quen ăn uống/sinh hoạt hợp lý và theo dõi tiến trình định kỳ.',
+          en: 'Managed direct health product sales at V99 Group (biomedtech.info) alongside Herbalife Wellness Coach practices: assessing goals, guiding practical daily nutrition habits, and checking in consistently.',
         },
         impact: {
           vi: 'Rèn kỹ năng giao tiếp thuyết phục, lắng nghe insight khách hàng sâu sắc và xây dựng uy tín cá nhân bền vững trong nhóm sản phẩm chăm sóc sức khỏe.',
           en: 'Sharpened consultative communication, customer empathy, and long-term trust building across health & wellness.',
         },
       },
-      link: 'https://biometech.info',
+      link: 'https://biomedtech.info/',
     },
     {
       id: 'proj-ads-affiliate',
@@ -567,13 +567,13 @@ export const PROFILE: ProfileData = {
         en: 'Health Product Sales & Wellness Coach',
       },
       organization: {
-        vi: 'V99 Group (biometech.info) · Herbalife',
-        en: 'V99 Group (biometech.info) · Herbalife',
+        vi: 'V99 Group (biomedtech.info) · Herbalife',
+        en: 'V99 Group (biomedtech.info) · Herbalife',
       },
       domain: 'commerce',
       description: {
-        vi: 'Tư vấn, kinh doanh thực phẩm bảo vệ sức khỏe tại V99 Group (biometech.info) và tham gia vai trò Huấn luyện viên Sức khỏe tại Herbalife — kết hợp kinh nghiệm quảng cáo & tiếp thị sản phẩm.',
-        en: 'Direct sales of health supplements at V99 Group (biometech.info) and Wellness Coach activities with Herbalife, alongside product advertising and affiliate marketing.',
+        vi: 'Tư vấn, kinh doanh thực phẩm bảo vệ sức khỏe tại V99 Group (biomedtech.info) và tham gia vai trò Huấn luyện viên Sức khỏe tại Herbalife — kết hợp kinh nghiệm quảng cáo & tiếp thị sản phẩm.',
+        en: 'Direct sales of health supplements at V99 Group (biomedtech.info) and Wellness Coach activities with Herbalife, alongside product advertising and affiliate marketing.',
       },
       achievements: [
         {
